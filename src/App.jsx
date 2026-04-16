@@ -7,9 +7,20 @@ import About from './Pages/About/About';
 import Contact from './Pages/Contact/Contact';
 
 function App() {
-
   return (
     <div className="app">
+      <div className="snow-container">
+  {[...Array(30)].map((_, i) => (
+    <div
+      key={i}
+      className="snowflake"
+      style={{
+        "--random-x": Math.random(),
+        "--random-delay": Math.random()
+      }}
+    ></div>
+  ))}
+</div>
       <BrowserRouter>
         <Navbar />
         <Routes>
