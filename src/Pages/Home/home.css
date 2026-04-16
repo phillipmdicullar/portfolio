@@ -1,0 +1,72 @@
+.home {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    height: 100vh;
+    padding: 10px 30px;
+}
+.home-left {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.small {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    font-family: inter, sans-serif;
+    font-size: 14px;
+    color: #84CC16;
+    
+
+}
+.small .span {
+    height: 10px;
+    width: 10px;
+    border-radius: 100%;
+    background-color: #A3E635;
+}
+.small .text {
+    padding: 2px 8px;
+    background-color: #F7FEE7;
+    border-radius: 4px;
+    border: 1px solid #D9F99D;
+}
+.text-section {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.text-section H4 {
+    font-family: Playfair Display, serif;
+    font-size: 24px;
+    font-weight: 300;
+}
+h4 span {
+    color: #9CA3AF; 
+}
+.text-section p {
+    font-family: inter, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: black;
+    
+}
+.main-text {
+    font-size: 32px ;
+    font-family: Playfair Display, serif;
+}
+button {
+    width: 150px;
+    padding: 12px 24px;
+    background-color: #84CC16;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-family: inter, sans-serif;
+    font-size: 14px;
+    cursor: pointer;
+    border: 1px solid #ffff;
+}

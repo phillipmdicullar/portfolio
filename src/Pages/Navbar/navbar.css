@@ -21,6 +21,9 @@ nav a {
     color: black;
     font-weight: 400;
 }
+nav a:hover {
+    color: #84CC16;
+}
 .hamburger {
     display: none;
     cursor: pointer;
