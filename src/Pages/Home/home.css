@@ -70,23 +70,25 @@ button {
     cursor: pointer;
     border: 1px solid #ffff;
 }
-
 @media (max-width: 768px) {
 
     .home {
         flex-direction: column;
+        align-items: flex-start; /* 👈 KEY CHANGE */
         justify-content: center;
         height: auto;
         padding: 20px;
-        text-align: center;
+        gap: 30px;
     }
 
     .home-left {
-        align-items: center;
+        align-items: flex-start; /* 👈 keep text left */
+        width: 100%;
     }
 
     .text-section {
-        align-items: center;
+        align-items: flex-start;
+        width: 100%;
     }
 
     .text-section h4 {
@@ -101,9 +103,15 @@ button {
         font-size: 14px;
     }
 
+    .home-right {
+        width: 100%;
+        display: flex;
+        justify-content: center; /* 👈 ONLY image is centered */
+    }
+
     .home-right img {
         width: 100%;
-        max-width: 300px;
+        max-width: 280px;
         height: auto;
     }
 }
