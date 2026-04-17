@@ -27,6 +27,7 @@ function Home() {
       <div className="home-right">
         <img src={Picture} alt="my pic" />
       </div>
+    
     </div>
   );
 }
