@@ -25,7 +25,7 @@ function About() {
 
         <div className="container">
           <h3>
-            <CountUp end={10} duration={10} />+
+            <CountUp end={10} duration={4} />+
           </h3>
           <p>Projects Completed</p>
         </div>
@@ -36,6 +36,7 @@ function About() {
           </h3>
           <p>Happy Clients</p>
         </div>
+        
       </div>
     </div>
   )
