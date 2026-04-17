@@ -59,13 +59,14 @@
 .input-group input,
 .input-group textarea {
     width: 100%;
-    padding: 12px;
+    padding: 14px 100px;
     border-radius: 6px;
     border: 1px solid #374151;
     background-color: transparent;
     color: white;
     font-size: 14px;
     outline: none;
+    text-align: center;
 }
 
 .input-group input:focus,
@@ -87,6 +88,7 @@
     }
 
     .contact-form {
-        padding: 20px;
+       
+        padding: 30px;
     }
 }
